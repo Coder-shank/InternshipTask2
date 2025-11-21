@@ -7,7 +7,6 @@
 
 .container{
     margin-top:48px;
-    /* border:2px solid black; */
     background-color: #071124; 
     padding:28px;
     border-radius:20px;
@@ -17,7 +16,6 @@
 }
 
 .smallerContainer{
-    /* border:2px solid black; */
     border-radius:10px; 
 }
 
@@ -27,13 +25,8 @@
     margin-bottom:26px;
     height:56px;
     width:1180px;
-    /* justify-content: space-evenly; */
     border:2px solid black;
     gap:502px; 
-}
-
-.Skills span{
-    color:#A5B4FC;
 }
 
 .NavbarleftSide{
@@ -47,6 +40,35 @@
     width:340px;
     display:flex;
     align-items:center;
+}
+
+
+.Skills span{
+    color:#A5B4FC;
+}
+
+.NavbarleftSideContent{
+    height:56px;
+    width:340px;
+    display:flex;
+    align-items:center;
+}
+.logo{
+    color:white;
+    background-color: #6366F0;
+    border-radius:10px;
+    height:56px;
+    width:56px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bolder;
+}
+.NameAndSkill{
+    display:flex;
+    flex-direction:column;
+    margin-left:10px;
 }
 .Name{
     /* margin-left:10px; */
@@ -66,18 +88,13 @@ span{
     font-size: small;
 }
 
-.NameAndSkill{
-    display:flex;
-    flex-direction:column;
-    margin-left:10px;
-}
-
 .NavbarRightSide{
-    /* display:flex; */
     color:#667387;
     width: 333px;
     height:56px;
 }
+
+
 .NavbarRightSideContent{
     display:flex;
     align-items:center;
@@ -89,18 +106,9 @@ span{
 .NavbarRightSideContent div{
     color:#A5B4FC;
 }
-
-.logo{
-    color:white;
-    background-color: #6366F0;
-    border-radius:10px;
-    height:56px;
-    width:56px;
-    display:flex;
-    align-items:center;
-    justify-content: center;
-    font-size: large;
-    font-weight: bolder;
+.NavbarRightSideContent a{
+    color:#A5B4FC;
+    text-decoration:none;
 }
 
 .MainContent{
@@ -123,159 +131,45 @@ span{
     padding:20px;
 }
 
-.leftside1stContentFinal p{
-    color:#6366F1;
-    font-size:19.08px;
-    font-weight:bold;
-}
-
-.leftside2ndContent{
-    margin-top:20px;
-    border: 2px solid black;
-    border-radius:5px;
-    height:233.9px;
-    width:636.77px;
-    border-radius: 10px;
-    padding:20px;
-    background-color: #111827;
-}
-
-.leftside2ndContentFinal{
-    height:193.9px;
-    width:596.77px;
-    border: 2px solid black;
-}
-
-.rightsideContent1{
-    height:646.05px;         
-    width:380px;
-    border: 2px solid black; 
-    border-radius: 10px;
-    padding:20px; 
-    background-color: #111827; 
-}
-                                       
-.rightsideContent1Final{ 
-    height:606.05px; 
-    width:340px;                 
-    border: 2px solid black;
-}
-
-.rightsideContent2{
-    height: auto;
-    width: 380px;
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 20px;
-    background-color: #111827;
-    display: flex;
-    /* border:2px solid blue;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
-}
-
-.rightsideContent2Final{
-    display: flex;
-    flex-direction: column;
-    /* gap: 12px; */
-    width: 100%;
-    height:276.807px;
-    /* justify-content: space-evenly; */
-}
-.rightsideContent2Final img{
-    width:342.74px;
-}
-.HelloContent{
-    text-decoration: none;
-    margin:18.720px 0px;
-    color:white;
-}
-.NameClass{ 
-    height:16px;
-    border:0.615px solid black;
-    padding:10px;
-    display:flex;
-    align-items:center;
-}
-
-.Name_Input{
-    height:16px;
-    width:100%
-}
-
-.EmailClass{
-    height:16px;
-    border:0.615px solid black;
-    padding:10px;
-    display:flex;
-    align-items:center;
-}
-
-.Email_Input{
-    height:16px;
-    width:100%
-}
-
-.MessageClass{
-    height: 61.538px;
-    border:0.615px solid black;
-    padding:10px;
-    display:flex;
-    align-items:center;
-}
-
-.Message_Input{
-    height:61.538px;
-    width:100%
-}
-
-.SendMessageContainer{
-    height:16px;
-    padding:10px 14px 10px 14px;
-    display:flex;
-    align-items:center;
-    background-color: #6366F0;
-}
-
-.Send_Message{
-    height:16px;
-    width:100%;
-    color:white;
-    background-color: #6366F0;
-}
-
 .leftside1stContentFinal{  
     width:  594.77px;
     height: 868.51px;
     border-radius: 10px; 
     display:flex;
     flex-direction:column;
-    /* flex-wrap:wrap; */
     justify-content:space-between;
 }
 
-.AboutSection{
-   width:338px;
-   height:28.08px;
-   color:#A5B4FC;
-   margin:10px 0px 8px;                
+.leftside1stContentFinal p{
+    color:#6366F1;
+    font-size:19.08px;
+    font-weight:bold;
 }
-
-.AboutMePara{
-    width:338.77px;
-    height: 96px;
-    margin:16px 0px;
-    font-size:16px;
-    /* font-weight:lighter; */
-    color:#A5B4FC;   
-}
-
 .leftside1stContentFinal h1{
     width:595px;
     height:67px;
     color:#E5E7EB;
+}
+
+.project1 img{
+    width:289.53px;
+    height:140px;
+    margin-bottom:10px;
+}
+
+.project2 img{
+    width:289.53px;
+    height: 140px;
+    margin-bottom:10px;
+}
+
+.Project1Name{
+    margin-bottom:10px;
+}
+
+.Project2Name{
+    margin-bottom:10px;
+    color:white;
 }
 
 .SkillsPresentInMainContent {
@@ -288,6 +182,7 @@ span{
     /* justify-content: space-evenly; */
 }
 
+
 .Skill1{
     height: 32.31px;
     width:fit-content;
@@ -298,6 +193,7 @@ span{
     border-radius:10px;
    padding:3px 5px;
 }
+
 .Skill2{
     height: 32.31px;
     width:fit-content;
@@ -360,6 +256,7 @@ span{
     padding:3px 5px;
 }
 
+
 .Intro{
     color:White;
     margin:12px 0px 6px 0px;
@@ -378,56 +275,6 @@ span{
     justify-content:space-between;
 } 
 
-.ProfessionalAccounts{
-    display:flex;
-}
-
-/* 
-.NameInput{
-    width:  338.77px;
-    height: 37.23px;
-    box-sizing: border-box;
-}
-.EmailInput{
-     width:  338.77px;
-    height: 37.23px;
-    box-sizing: border-box;
-}
-
-.MessageInput{
-    width:  338.77px;
-    height: 82.77px;
-    box-sizing: border-box;
-}
-
-button{
-    width:  338.77px;
-    height: 37.23px;
-    box-sizing: border-box;
-} */
-
-
-
-
-/* .NameInput, .EmailInput, .MessageInput, button {
-    width: 100%;
-    box-sizing: border-box;
-} */
-
-/* 
-.NameInput,
-.EmailInput,
-.MessageInput,
-button {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px;
-    background-color: #0d1628;
-    border: 1px solid #444;
-    color: white;
-    border-radius: 5px;
-} */
-
 .project1{
     width:  289.54px;
     height: 236.62px;
@@ -438,45 +285,56 @@ button {
     height: 236.62px;    
 }
 
-.project3{
-    width:  289.54px;
-    height: 236.62px;
-    border:2px solid black;
+.rightsideContent1{
+    height:646.05px;         
+    width:380px;
+    border: 2px solid black; 
+    border-radius: 10px;
+    padding:20px; 
+    background-color: #111827; 
 }
-.project4{
-    width:  289.54px;
-    height: 236.62px;
-    border:2px solid black;   
-}
-
-.WorkExperience{
+                                       
+.rightsideContent1Final{ 
+    height:606.05px; 
+    width:340px;                 
+    border: 2px solid black;
     color:white;
-}
-.WorkExperienceExplanation{
-    color: #A4B5FC;
-}
-
-.RoleInCompany{
-    color:white;
-    width:251.83px;
-    height:40.31px;
-    padding:10px;
-    border: 2px solid skyblue;
 }
 
 .rightsideContent1Final img{
-    width:338px;
+    width:341px;
     height:220px;
 }
 
-.rightsideContent1Final{
+
+
+.AboutSection{
+   width:338px;
+   height:28.08px;
+   color:#A5B4FC;
+   margin:10px 0px 8px;   
+   font-weight:bold;
+    font-size:larger;             
+}
+
+.AboutMePara{
+    width:338.77px;
+    height: 96px;
+    margin:16px 0px;
+    font-size:16px;
+    /* font-weight:lighter; */
+    color:#A5B4FC;   
+}
+
+
+
+.Project1Name{
+    color:white;
+}
+.project2Name{
     color:white;
 }
 
-.AboutSection{
-    font-weight:bold;
-    font-size:larger;
-}
 
 .AboutSkills{
     display:flex;
@@ -549,52 +407,13 @@ button {
 }
 
 .AboutSkill7{
-     height: 32.31px;
-    width:fit-content;
-    display:flex;
-    align-items: center; 
-    background-color: #FFFFFF14;
-    border-radius:10px;
+   height: 32.31px;
+   width:fit-content;
+   display:flex;
+   align-items: center; 
+   background-color: #FFFFFF14;
+   border-radius:10px;
    padding:3px 5px;
-}
-
-.Project1Name{
-    color:white;
-}
-.project2Name{
-    color:white;
-}
-.project3Name{
-    color:white;
-}
-.project4Name{
-    color:white;
-}
-
-.project1 img{
-    width:289.53px;
-    height:140px;
-    margin-bottom:10px;
-}
-
-.project2 img{
-    width:289.53px;
-    height: 140px;
-    margin-bottom:10px;
-}
-
-.Project1Name{
-    margin-bottom:10px;
-}
-
-.Project2Name{
-    margin-bottom:10px;
-    color:white;
-}
-
-.NavbarRightSideContent a{
-    color:#A5B4FC;
-    text-decoration:none;
 }
 
 .ContactHeading{
@@ -609,6 +428,7 @@ button {
 }
 
 .ProfessionalAccounts{
+    display:flex;
     margin-top:10px;
     color:#A4B5FC;
     gap:5px;
@@ -627,6 +447,93 @@ button {
     font-size:16px;
     font-weight:bolder;
 }
+
+.rightsideContent2{
+    height: auto;
+    width: 380px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #111827;
+    display: flex;
+    /* border:2px solid blue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.rightsideContent2Final{
+    display: flex;
+    flex-direction: column;
+    /* gap: 12px; */
+    width: 100%;
+    height:276.807px;
+    /* justify-content: space-evenly; */
+}
+
+
+
+
+.HelloContent{
+    text-decoration: none;
+    margin:18.720px 0px;
+    color:white;
+}
+.NameClass{ 
+    height:16px;
+    border:0.615px solid black;
+    padding:10px;
+    display:flex;
+    align-items:center;
+}
+
+.Name_Input{
+    height:16px;
+    width:100%
+}
+
+.EmailClass{
+    height:16px;
+    border:0.615px solid black;
+    padding:10px;
+    display:flex;
+    align-items:center;
+}
+
+.Email_Input{
+    height:16px;
+    width:100%
+}
+
+.MessageClass{
+    height: 61.538px;
+    border:0.615px solid black;
+    padding:10px;
+    display:flex;
+    align-items:center;
+}
+
+.Message_Input{
+    height:61.538px;
+    width:100%
+}
+
+.SendMessageContainer{
+    height:16px;
+    padding:10px 14px 10px 14px;
+    display:flex;
+    align-items:center;
+    background-color: #6366F0;
+}
+
+.Send_Message{
+    height:16px;
+    width:100%;
+    color:white;
+    background-color: #6366F0;
+}
+
 
 input {
     border: none;
@@ -648,8 +555,38 @@ input:focus {
     border:2px solid white; 
 }
 
-.rightsideContent1Final img{
-    width:341px;
+
+
+
+.Projects a:hover{
+    color: Blue;
+    font-weight: bolder;
+    
+}
+
+.About a:hover{
+    color: Blue;
+    font-weight: bolder;
+
+}
+
+.Contact a:hover{
+    color: Blue;
+    font-weight: bolder;
+
+}
+
+.GithubAccountLink a:hover{
+    color: Blue;
+    font-weight: bolder;
 }
 
 
+.LinkedInAccountLink a:hover{
+    color: Blue;
+    font-weight: bolder;
+} 
+
+.Send_Message:hover{
+    border:2px solid blue;
+}
